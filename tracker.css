@@ -1,0 +1,89 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.header{
+    background: #476EF4;
+    color: white;
+    padding-left: 25px;
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476EF4;
+    margin-top: 15px;
+    padding: 25px 6px;
+
+}
+
+
+#add-button{
+    background: #476EF4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    
+}
+.form-select{
+
+
+}
+.inupts{
+ width: 30%;
+}
+.cards{
+    
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 40px;
+}
+.card{
+    background: #476EF4;
+    border: 0px;
+    height: 150px;
+}
+.card-body{
+    color: white;
+    
+}
+.transaction-table{
+    border: 1px black solid;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+
+
+
+
+}
+#header-row{
+    background: #476EF4;
+    color: white;
+}
+#header-row th{
+    padding: 15px 10px;
+
+}
+.delete-button{
+    
+    
+    border-radius: 50%;
+    background: white;
+}
